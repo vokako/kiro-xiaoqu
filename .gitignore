@@ -1,0 +1,5 @@
+mv/fonts/*.ttf
+mv/fonts/*.woff2
+mv/out/
+out/
+tools/node_modules/

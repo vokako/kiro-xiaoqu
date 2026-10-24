@@ -1,0 +1,5 @@
+[{"out": "out/kiro_xiaoqu_mv.mp4",
+  "vf": "scale=out_color_matrix=bt709:out_range=tv:flags=lanczos+accurate_rnd+full_chroma_int,format=yuv420p",
+  "codec": ["-c:v", "libx264", "-preset", "medium", "-crf", "16", "-threads", "2", "-pix_fmt", "yuv420p",
+            "-colorspace", "bt709", "-color_primaries", "bt709", "-color_trc", "bt709", "-color_range", "tv"],
+  "audio": ["-c:a", "aac", "-b:a", "320k", "-ar", "48000"]}]

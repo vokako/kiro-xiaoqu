@@ -1,0 +1,23 @@
+<!doctype html><html><head><meta charset="utf-8">
+<!-- Kiro 小曲 · MV. One 1080x1920 canvas drawn in code; every frame is a function of t (window.renderAt).
+     Times come from cues.json; the ghost is the official kiro.dev/icon.svg outline (ghost_geom.json).
+     Type follows kiro.dev: AWS Diatype Rounded Semi-Mono (display), AWS Diatype (UI), Fragment Mono (code), from kiro.dev
+     (not included, see the README); Chinese in Resource Han Rounded and Maple Mono CN (both OFL).
+     ?lyrics=1 draws only the lyrics, white on black, for the safe-area and sync checks. -->
+<style>
+@font-face{font-family:'KDisp';src:url('fonts/AWSDiatypeRoundedSemi-Mono-Bold.woff2');font-weight:700}
+@font-face{font-family:'KDisp';src:url('fonts/AWSDiatypeRoundedSemi-Mono-Regular.woff2');font-weight:400}
+@font-face{font-family:'KRound';src:url('fonts/AWSDiatypeRounded-Bold.woff2');font-weight:700}
+@font-face{font-family:'KSans';src:url('fonts/AWSDiatype-Regular.woff2');font-weight:400}
+@font-face{font-family:'KSans';src:url('fonts/AWSDiatype-Bold.woff2');font-weight:700}
+@font-face{font-family:'KMono';src:url('fonts/FragmentMono-Regular.woff2');font-weight:400}
+@font-face{font-family:'Rounded';src:url('fonts/ResourceHanRoundedCN-Light.ttf');font-weight:300}
+@font-face{font-family:'Rounded';src:url('fonts/ResourceHanRoundedCN-Bold.ttf');font-weight:700}
+@font-face{font-family:'Rounded';src:url('fonts/ResourceHanRoundedCN-Heavy.ttf');font-weight:900}
+@font-face{font-family:'MapleCN';src:url('fonts/MapleMono-CN-Regular.ttf');font-weight:400}
+@font-face{font-family:'MapleCN';src:url('fonts/MapleMono-CN-Bold.ttf');font-weight:700}
+@font-face{font-family:'Sans SC';src:url('fonts/NotoSansSC-VF.ttf');font-weight:100 900}
+html,body{margin:0;background:#000;overflow:hidden}canvas{display:block}
+</style></head><body><canvas id="c" width="1080" height="1920"></canvas>
+<script src="lib.js"></script><script src="cyber.js"></script><script src="type.js"></script><script src="scenes_a.js"></script><script src="scenes_b.js"></script><script src="scenes_c.js"></script><script src="film.js"></script>
+</body></html>

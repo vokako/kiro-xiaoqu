@@ -1,0 +1,7 @@
+{
+  "name": "kiro-xiaoqu-render",
+  "private": true,
+  "type": "module",
+  "description": "Frame-by-frame renderer for the Kiro 小曲 MV page (render.mjs, MIT, see LICENSE-render.txt)",
+  "dependencies": { "puppeteer-core": "25.12.0" }
+}
